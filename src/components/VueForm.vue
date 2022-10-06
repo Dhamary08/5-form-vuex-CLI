@@ -173,6 +173,7 @@ export default {
           variant: 'success',
         });
         this.$emit('sent-form', this.model);
+        this.model = [];
       }
     },
     async sentNewUsers() {
